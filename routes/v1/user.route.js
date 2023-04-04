@@ -18,5 +18,21 @@ router
    * @apiError (Unauthorized 401) Unauthorized Only authenticated user can access the data
    * @apiError (Forbidden 403) Forbidden Only admis can access the data
    */
-  .get(userController.getAlluser);
+  .get(userController.getAlluser)
+  /**
+   * @api {post} /user save  user
+   * @description post the user
+   * @apiPermission admin
+   *
+   * @apiHeader {String} Authorization User's access token
+   *
+   * @apiParam {Number{1-}} [pages=1] list page
+   * @apiParam {Number{1-100}} [limit=10] User per page
+   *
+   * @apiSuccess {Object[]} all the user
+   *
+   * @apiError (Unauthorized 401) Unauthorized Only authenticated user can access the data
+   * @apiError (Forbidden 403) Forbidden Only admis can access the data
+   */
+  .post(userController.saveAuser);
 module.exports = router;

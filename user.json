@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "phone": "+1-202-555-0195",
+    "address": {
+      "street": "123 Main St",
+      "city": "Anytown",
+      "state": "CA",
+      "zip": "12345"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "email": "jane.smith@example.com",
+    "phone": "+1-202-555-0159",
+    "address": {
+      "street": "456 Elm St",
+      "city": "Sometown",
+      "state": "NY",
+      "zip": "67890"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Bob Johnson",
+    "email": "bob.johnson@example.com",
+    "phone": "+1-202-555-0132",
+    "address": {
+      "street": "789 Oak St",
+      "city": "Anyville",
+      "state": "TX",
+      "zip": "54321"
+    }
+  }
+]

@@ -6,7 +6,6 @@ const userRouter = require("./routes/v1/user.route");
 // middleware
 app.use(cors());
 app.use(express.json());
-
 // router
 app.use("/api/v1/user", userRouter);
 
