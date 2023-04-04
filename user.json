@@ -1,38 +1,28 @@
-[
-  {
-    "id": 1,
-    "name": "John Doe",
-    "email": "john.doe@example.com",
-    "phone": "+1-202-555-0195",
-    "address": {
-      "street": "123 Main St",
-      "city": "Anytown",
-      "state": "CA",
-      "zip": "12345"
+{
+  "users": [
+    {
+      "id": 1,
+      "gender": "male",
+      "name": "John Doe",
+      "contact": "+1-123-456-7890",
+      "address": "123 Main St, Anytown USA",
+      "photoUrl": "https://example.com/john-doe.jpg"
+    },
+    {
+      "id": 2,
+      "gender": "female",
+      "name": "Jane Doe",
+      "contact": "+1-234-567-8901",
+      "address": "456 Elm St, Anytown USA",
+      "photoUrl": "https://example.com/jane-doe.jpg"
+    },
+    {
+      "id": "13c9bfe1-7b36-4f89-8cea-d9fd8f66a6e1",
+      "gender": "female",
+      "name": "Jane Doe",
+      "contact": "+1-234-567-8901",
+      "address": "456 Elm St, Anytown USA",
+      "photoUrl": "https://example.com/jane-doe.jpg"
     }
-  },
-  {
-    "id": 2,
-    "name": "Jane Smith",
-    "email": "jane.smith@example.com",
-    "phone": "+1-202-555-0159",
-    "address": {
-      "street": "456 Elm St",
-      "city": "Sometown",
-      "state": "NY",
-      "zip": "67890"
-    }
-  },
-  {
-    "id": 3,
-    "name": "Bob Johnson",
-    "email": "bob.johnson@example.com",
-    "phone": "+1-202-555-0132",
-    "address": {
-      "street": "789 Oak St",
-      "city": "Anyville",
-      "state": "TX",
-      "zip": "54321"
-    }
-  }
-]
+  ]
+}
