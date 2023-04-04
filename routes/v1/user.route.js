@@ -4,8 +4,8 @@ const router = express.Router();
 router
   .route("/random")
   /**
-   * @api {get} / all user
-   * @description get all user
+   * @api {get} / random user
+   * @description get random user
    * @apiPermission admin
    *
    * @apiHeader {String} Authorization User's access token
@@ -13,7 +13,7 @@ router
    * @apiParam {Number{1-}} [pages=1] list page
    * @apiParam {Number{1-100}} [limit=10] User per page
    *
-   * @apiSuccess {Object[]} all the user
+   * @apiSuccess {Object[]} random the user
    *
    * @apiError (Unauthorized 401) Unauthorized Only authenticated user can access the data
    * @apiError (Forbidden 403) Forbidden Only admis can access the data
